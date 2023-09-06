@@ -3,7 +3,7 @@ const path = require("path");
 require("dotenv").config();
 
 const {
-  DATABASE_URL = "postgresql://postgres@localhost/postgres",
+  DATABASE_URL = "postgres://sszzanjz:kTSWNqG_J9C_PoI1DqBmP_GHYuozkdu1@bubble.db.elephantsql.com/sszzanjz",
 } = process.env;
 
 module.exports = {
